@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(26, 26, 26);
+}
+.content {
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex;
+  margin-top: -60px;
+  z-index: -19899;
+  width: 340px;
+  -webkit-box-shadow: 5px 2px 35px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 2px 35px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 2px 35px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.content button {
+  margin: 10px 25px !important;
+  width: 65px;
+  cursor: pointer;
+  border: 2.5px solid rgb(26, 94, 26);
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: rgb(26, 94, 26);
+}
+
+.context {
+  margin-left: 390px;
+  margin-top: 150px !important;
+  border: 4px groove #cfcfcf;
+  width: 500px;
+  height: 500px;
+  background-color: #ffff;
+}
+
+.context2 {
+  margin-left: 505px;
+  margin-top: 150px !important;
+  border: 4px groove #cfcfcf;
+  width: 500px;
+  height: 500px;
+  background-color: #ffff;
+  text-align: center;
+  display: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.628),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/atm.jpg);
+  background-size: cover;
+}
+.frm {
+  margin: 150px 150px;
+}
+.frm2 {
+  margin: 10px 150px;
+}
+
+#btnE{
+    border: 2.5px solid rgb(18, 18, 116);
+    border-radius: 40px;
+    background-color: rgb(13, 13, 95);
+    color: aliceblue;
+}
+#menu {
+  
+}
+
+#menu button {
+  margin: 50px 60px;
+  width: 100px;
+  height: 60px;
+  border: 2.5px solid rgb(9, 22, 31);
+  border-radius: 12px;
+  background-color: rgb(21, 55, 78);
+  color: white;
+}
+
+#Bal {
+    display: none;
+    margin-left: 505px;
+    margin-top: 150px !important;
+    border: 4px groove #cfcfcf;
+    width: 500px;
+    height: 500px;
+    background-color: #ffff;
+   
+  }
+  #Bl{
+    text-align: center;
+    color: azure;
+    display: none;
+    height: 480px;
+    font-size: 30px;
+    padding: 20px 20px;
+    margin-top: 00px !important;
+    padding-bottom: 0px!important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.628),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/atm.jpg) ;
+    background-size: cover;
+  }
+  
+  #withdraw {
+    display: none;
+    margin-left: 505px;
+    margin-top: 150px !important;
+    border: 4px groove #cfcfcf;
+    width: 500px;
+    height: 500px;
+    background-color: #ffff;
+    text-align: center;
+  }
